@@ -4,7 +4,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const VENDOR_LIBS = [
   'axios', 'react', 'redux', 'react-dom', 'react-redux',
-  'react-router', 'semantic-ui-react', 'redux-promise'
+  'react-router', 'redux-promise'
 ];
 
 module.exports = {
