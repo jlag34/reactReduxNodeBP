@@ -4,11 +4,11 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import App from './components/app';
 import Home from './components/home';
 
-const componentRoutes = {
-  component: App,
-  path: '/',
-  indexRoute: { component: Home }
-};
+const componentRoutes = (
+  <Route component={App} path='/'>
+    <Route component={Home} path='/test' />
+  </Route>
+);
 
 const Routes = () => {
   return <Router history={ browserHistory } routes={ componentRoutes } />

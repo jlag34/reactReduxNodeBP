@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = props => {
-	return	<div>{props.children}</div>
+	return	<div>/ is working</div>
 }
 
 export default App;
