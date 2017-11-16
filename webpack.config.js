@@ -51,9 +51,5 @@ module.exports = {
       template: './client/src/index.html'
     })
   ],
-  devtool: 'inline-source-map',
-  devServer: {
-    contentBase: '/dist',
-    historyApiFallback: true
-  },
+  devtool: 'inline-source-map'
 };
